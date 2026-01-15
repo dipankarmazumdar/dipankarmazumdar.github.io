@@ -1,0 +1,36 @@
+baseURL = 'https://dipankarmazumdar.github.io/'
+languageCode = 'en-us'
+title = 'Dipankar Mazumdar | Data Systems Architecture'
+theme = "terminal"
+
+[params]
+  # The "terminal" look you want
+  contentTypeName = "posts"
+  themeColor = "orange" 
+  showFullContent = false
+  readingTime = true
+  
+  # This text appears on the homepage "terminal" prompt
+  [params.terminal]
+    prefix = "dipankar@lakehouse:~$ "
+
+# This builds your Navbar
+[[menu.main]]
+  name = "About"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Writing"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "Research"
+  url = "/research"
+  weight = 3
+
+[[menu.main]]
+  name = "Speaking"
+  url = "/speaking"
+  weight = 4
