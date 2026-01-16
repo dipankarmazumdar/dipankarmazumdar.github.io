@@ -5,10 +5,12 @@ theme = "terminal"
 
 [params]
   # This is the "kill switch" for those [] symbols on the home page
+  fullWidthTheme = true
+  maxWidth = "1200px"
   hideLatestPosts = true
   contentTypeName = "posts"
   themeColor = "orange"
-  avatar = "avatar.jpg"
+  avatar = "/avatar.jpg"
 
   [params.terminal]
     prefix = "dipankar@lakehouse:~$ "
@@ -36,3 +38,8 @@ theme = "terminal"
   name = "Speaking"
   url = "/speaking/"
   weight = 4
+
+[[menu.main]]
+  name = "Books"
+  url = "/books/"
+  weight = 5
