@@ -1,0 +1,33 @@
+<header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      {{ partial "logo.html" . }}
+    </div>
+
+    <!-- ✅ Social links (top-right) -->
+    <div class="header__social">
+      {{ with .Site.Params.social.linkedin }}
+        <a class="header__social-link" href="https://www.linkedin.com/in/{{ . }}/" target="_blank" rel="noopener">LinkedIn</a>
+      {{ end }}
+
+      {{ with .Site.Params.social.x }}
+        <a class="header__social-link" href="https://x.com/{{ . }}" target="_blank" rel="noopener">X</a>
+      {{ end }}
+
+      {{ with .Site.Params.social.twitter }}
+        <a class="header__social-link" href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">X</a>
+      {{ end }}
+    </div>
+
+    {{ if len $.Site.Menus }}
+      {{ partial "mobile-menu.html" . }}
+    {{ end }}
+    {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
+      {{ partial "language-menu.html" . }}
+    {{ end }}
+  </div>
+
+  {{ if len $.Site.Menus }}
+    {{ partial "menu.html" . }}
+  {{ end }}
+</header>

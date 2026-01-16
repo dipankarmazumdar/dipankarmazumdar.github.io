@@ -1,0 +1,17 @@
+.header__social {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.header__social-link {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.header__social-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
