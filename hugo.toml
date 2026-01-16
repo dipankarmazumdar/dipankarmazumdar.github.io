@@ -32,6 +32,11 @@ theme = "terminal"
     logoText = "DM"
     logoHomeLink = "/"
 
+  [params.social]
+  linkedin = "dipankar-mazumdar"
+  x = "dipankartnt"
+
+
 # Navigation Menu
 [[menu.main]]
   name = "About"
