@@ -10,7 +10,7 @@ theme = "terminal"
   hideLatestPosts = true
   contentTypeName = "posts"
   themeColor = "orange"
-  avatar = "/avatar.jpg"
+  avatar = "avatar.jpg"
 
   [params.terminal]
     prefix = "dipankar@lakehouse:~$ "
