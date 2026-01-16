@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'Dipankar Mazumdar | Data Systems Architecture'
 theme = "terminal"
 
+# ✅ IMPORTANT: allow raw HTML inside Markdown (your Books page uses HTML blocks)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   # Theme Styling
   themeColor = "orange"
