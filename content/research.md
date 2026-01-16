@@ -1,5 +1,6 @@
 ---
 title: "Research"
+url: "/research/"
 ---
 
 ### [Revisiting Random Forest Interpretability and Feature Selection](https://arxiv.org/pdf/2310.08697)

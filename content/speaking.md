@@ -1,5 +1,6 @@
 ---
 title: "Speaking Sessions"
+url: "/speaking/"
 description: "Conference talks and deep-dives on Open Table Formats"
 type: "page"
 ---
