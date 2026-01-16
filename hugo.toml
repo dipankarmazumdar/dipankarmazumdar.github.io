@@ -6,7 +6,7 @@ theme = "terminal"
 [params]
   # This is the "kill switch" for those [] symbols on the home page
   fullWidthTheme = true
-  maxWidth = "1200px"
+  maxWidth = "95%"
   hideLatestPosts = true
   contentTypeName = "posts"
   themeColor = "orange"
