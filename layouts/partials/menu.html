@@ -1,0 +1,32 @@
+<nav class="menu">
+  <ul class="menu__inner">
+    {{- range .Site.Menus.main -}}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{- end -}}
+
+    <!-- Social links -->
+    {{ with .Site.Params.social.linkedin }}
+      <li class="menu__social">
+        <a href="https://www.linkedin.com/in/{{ . }}/"
+           target="_blank"
+           rel="noopener">LinkedIn</a>
+      </li>
+    {{ end }}
+
+    {{ with .Site.Params.social.x }}
+      <li class="menu__social">
+        <a href="https://x.com/{{ . }}"
+           target="_blank"
+           rel="noopener">X</a>
+      </li>
+    {{ end }}
+
+    {{ with .Site.Params.social.twitter }}
+      <li class="menu__social">
+        <a href="https://twitter.com/{{ . }}"
+           target="_blank"
+           rel="noopener">X</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>

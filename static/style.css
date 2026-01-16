@@ -1,17 +1,21 @@
-.header__social {
+/* --- Menu layout --- */
+.menu__inner {
   display: flex;
-  gap: 14px;
+  flex-wrap: wrap;
   align-items: center;
-  margin-left: 16px;
-  white-space: nowrap;
+  gap: 18px;
 }
 
-.header__social-link {
-  text-decoration: none;
+/* --- Social links in menu --- */
+.menu__social {
   opacity: 0.9;
 }
 
-.header__social-link:hover {
-  opacity: 1;
+.menu__social a {
+  text-decoration: none;
+}
+
+.menu__social a:hover {
   text-decoration: underline;
+  opacity: 1;
 }
