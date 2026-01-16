@@ -1,16 +1,14 @@
 baseURL = 'https://dipankarmazumdar.github.io/'
 languageCode = 'en-us'
-title = 'Dipankar Mazumdar | Data Systems Architecture'
+title = 'Dipankar Mazumdar'
 theme = "terminal"
 
 [params]
+  # This is the "kill switch" for those [] symbols on the home page
+  hideLatestPosts = true
   contentTypeName = "posts"
   themeColor = "orange"
-  showFullContent = false
-  readingTime = false
-  # Avatar settings
   avatar = "avatar.jpg"
-  portrait = "avatar.jpg"
 
   [params.terminal]
     prefix = "dipankar@lakehouse:~$ "
@@ -19,7 +17,6 @@ theme = "terminal"
     logoText = "DM"
     logoHomeLink = "/"
 
-# Navbar Configuration
 [[menu.main]]
   name = "About"
   url = "/"
@@ -27,15 +24,15 @@ theme = "terminal"
 
 [[menu.main]]
   name = "Writing"
-  url = "/writing"
+  url = "/writing/"
   weight = 2
 
 [[menu.main]]
   name = "Research"
-  url = "/research"
+  url = "/research/"
   weight = 3
 
 [[menu.main]]
   name = "Speaking"
-  url = "/speaking"
+  url = "/speaking/"
   weight = 4

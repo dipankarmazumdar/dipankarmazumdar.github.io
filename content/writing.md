@@ -1,6 +1,8 @@
 ---
 title: "Writing"
+type: "page"
 layout: "page"
+url: "/writing/"
 ---
 
 ### Featured Technical Blogs
