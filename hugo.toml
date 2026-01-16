@@ -1,28 +1,25 @@
 baseURL = 'https://dipankarmazumdar.github.io/'
 languageCode = 'en-us'
 title = 'Dipankar Mazumdar | Data Systems Architecture'
-theme = ["hugo-theme-terminal"]
+theme = "terminal"
 
 [params]
-  # The "terminal" look you want
   contentTypeName = "posts"
-  themeColor = "orange" 
+  themeColor = "orange"
   showFullContent = false
-  readingTime = true
-  hideProjectsList = true
-  
-  # This text appears on the homepage "terminal" prompt
+  readingTime = false
+  # Avatar settings
+  avatar = "avatar.jpg"
+  portrait = "avatar.jpg"
+
   [params.terminal]
     prefix = "dipankar@lakehouse:~$ "
 
   [params.logo]
-  logoText = "DM"
-  logoHomeLink = "/"
+    logoText = "DM"
+    logoHomeLink = "/"
 
-# To show your photo (theme dependent)
-avatar = "avatar.jpg"
-
-# This builds your Navbar
+# Navbar Configuration
 [[menu.main]]
   name = "About"
   url = "/"
@@ -30,7 +27,7 @@ avatar = "avatar.jpg"
 
 [[menu.main]]
   name = "Writing"
-  url = "/posts"
+  url = "/writing"
   weight = 2
 
 [[menu.main]]
@@ -41,4 +38,4 @@ avatar = "avatar.jpg"
 [[menu.main]]
   name = "Speaking"
   url = "/speaking"
-  weight = 4 
+  weight = 4
