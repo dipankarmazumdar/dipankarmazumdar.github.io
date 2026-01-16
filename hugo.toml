@@ -9,10 +9,18 @@ theme = ["hugo-theme-terminal"]
   themeColor = "orange" 
   showFullContent = false
   readingTime = true
+  hideProjectsList = true
   
   # This text appears on the homepage "terminal" prompt
   [params.terminal]
     prefix = "dipankar@lakehouse:~$ "
+
+  [params.logo]
+  logoText = "DM"
+  logoHomeLink = "/"
+
+# To show your photo (theme dependent)
+avatar = "avatar.jpg"
 
 # This builds your Navbar
 [[menu.main]]
