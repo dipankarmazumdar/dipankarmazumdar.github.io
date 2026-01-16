@@ -15,7 +15,7 @@ theme = "terminal"
   
   # Avatar/Portrait Fix
   # Ensure avatar.jpg is in your /static/ folder
-  avatar = "/avatar.jpg"
+  avatar = "avatar.jpg"
   portrait = "avatar.jpg" 
   showPortrait = true
 
